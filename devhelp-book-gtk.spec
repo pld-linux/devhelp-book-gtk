@@ -33,7 +33,7 @@ install book/* $RPM_BUILD_ROOT%{_prefix}/books/gtk-%{version}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %{_prefix}/books/*
 %{_prefix}/specs/*
