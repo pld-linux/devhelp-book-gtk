@@ -1,5 +1,5 @@
-Summary:	DevHelp book: GTK 1.2
-Summary(pl):	Ksi±¿ka do DevHelpa o GTK 1.2
+Summary:	DevHelp book: GTK+ 1.2
+Summary(pl):	Ksi±¿ka do DevHelpa o GTK+ 1.2
 Name:		devhelp-book-gtk
 Version:	1.2
 Release:	1
@@ -15,10 +15,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_prefix		/usr/share/devhelp
 
 %description
-DevHelp book about GTK 1.2.
+DevHelp book about GTK+ 1.2.
 
 %description -l pl
-Ksi±¿ka do DevHelpa o GTK 1.2.
+Ksi±¿ka do DevHelpa o GTK+ 1.2.
 
 %prep
 %setup -q -c -n gtk-%{version}
